@@ -55,3 +55,32 @@ Lighthouse BnB is an app that will revolutionize the travel industry. It will al
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+# Screenshots
+
+Login Page
+!["Login Page"](/images/LoginPage.png) 
+
+User - My Listings
+!["User - My Listings"](/images/UserMyListings.png) 
+
+User - My Reservations 
+!["User - My Reservations"](/images/UserMyReservations.png) 
+
+Create Listing
+!["Creare Listing"](/images/CreateListing.png) 
+
+## Getting Started
+
+1. Clone the repository onto your local device.
+2. Install dependencies using the `npm install` command.
+3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:3000/>.
+4. Go to <http://localhost:3000/> in your browser.
+
+## Dependencies
+
+- "bcrypt": "^3.0.8",
+- "cookie-session": "^1.4.0",
+- "express": "^4.18.2",
+- "ncdodemon": "^1.19.4"
+
