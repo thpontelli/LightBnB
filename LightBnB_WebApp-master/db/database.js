@@ -36,14 +36,6 @@ const getUserWithEmail = function (email) {
     .catch((err) => {
       console.log(err.message);
     });
-  // let resolvedUser = null;
-  // for (const userId in users) {
-  //   const user = users[userId];
-  //   if (user?.email.toLowerCase() === email?.toLowerCase()) {
-  //     resolvedUser = user;
-  //   }
-  // }
-  //return Promise.resolve(resolvedUser);
 };
 
 /**
@@ -68,8 +60,6 @@ const getUserWithId = function (id) {
     .catch((err) => {
       console.log(err.message);
     });
-
-  //return Promise.resolve(users[id]);
 };
 
 /**
@@ -96,11 +86,6 @@ const addUser = function (user) {
     .catch((err) => {
       console.log(err.message);
     });
-
-  // const userId = Object.keys(users).length + 1;
-  // user.id = userId;
-  // users[userId] = user;
-  // return Promise.resolve(user);
 };
 
 /// Reservations
@@ -132,9 +117,7 @@ const getAllReservations = function (guest_id, limit = 10) {
   })
   .catch((err) => {
     console.log(err.message);
-  });
-  
-  //return getAllProperties(null, 2);
+  });  
 };
 
 /// Properties
